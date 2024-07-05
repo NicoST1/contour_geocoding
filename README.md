@@ -1,4 +1,4 @@
 # Contour Geocoding & Extraction
 
 
-![Application usage](demo.gif)
+![Application usage](output.gif)
