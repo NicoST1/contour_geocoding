@@ -1,5 +1,5 @@
 # Contour Geocoding & Extraction
 
 
-<img src="output.gif" alt="Demo" width="800" height="800">
+<img src="output.gif" alt="Demo" width="800" height="auto">
 
