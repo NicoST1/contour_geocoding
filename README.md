@@ -1,2 +1,4 @@
-# contour_geocoding
-Extract and geocode map contours from image.
+# Contour Geocoding & Extraction
+
+
+![Application usage](path/to/your/giffile.gif)
