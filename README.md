@@ -1,4 +1,5 @@
 # Contour Geocoding & Extraction
 
 
-![Application usage](output.gif)
+<img src="output.gif" alt="Demo" width="800" height="800">
+
