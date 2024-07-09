@@ -1,0 +1,26 @@
+
+
+.upload-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    width: 400px; /* Percentage of modal-content's size */
+    height: 400px; /* Percentage, keeping space for buttons */
+    cursor: pointer;
+}
+
+.upload-box:hover {
+    filter: brightness(0.85);; /* Lighter shade on hover */
+}
+
+.upload-box i {
+    font-size: 50px; /* Larger icon */
+    margin-bottom: 10px;
+}
+
+#selected-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}

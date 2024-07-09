@@ -1,0 +1,59 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="image-box">
+                <img id="image-contour" alt="Input Image">
+            </div>
+            <div class="processing-panel mt-4">
+                <div class="slider-container">
+                    <label for="constrast-slider">Contrast:</label>
+                    <input type="range" class="custom-range" id="contrast-slider" min="0.1" max="3.0" step="0.1" value="1.0">
+                </div>
+                <div class="slider-container">
+                    <label for="brightness-slider">Brightness:</label>
+                    <input type="range" class="custom-range" id="brightness-slider" min="-100" max="100" step="10" value="0">
+                </div>
+                <div class="slider-container">
+                    <label for="cluster-slider">N. Clusters:</label>
+                    <input type="range" class="custom-range" id="cluster-slider" min="1" max="30" step="1" value="5">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="image-box">
+                <canvas id="contour-canvas"></canvas>
+                <button id="undo-btn" class="undo-btn">
+                    <i class="bi bi-arrow-counterclockwise"></i>
+                </button>
+                <button id="eraser-btn" class="eraser-btn">
+                    <i class="bi bi-eraser"></i>
+                </button>
+            </div>
+            <div class="post-processing-panel mt-4">
+                <div class="slider-container">
+                    <label for="dilate-slider">Dilate:</label>
+                    <input type="range" class="custom-range" id="dilate-slider" min="0" max="10" step="1" value="0">
+                </div>
+                <div class="slider-container">
+                    <label for="erode-slider">Erode:</label>
+                    <input type="range" class="custom-range" id="erode-slider" min="0" max="10" step="1" value="0">
+                </div>
+                <div class="slider-container">
+                    <label for="area-slider">Min. Contour Area:</label>
+                    <input type="range" class="custom-range" id="area-slider" min="0" max="10000" step="100" value="100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="controls">
+                <label for="colours-container" class="h5">Select one or more colors that match the contour color:</label>
+                <div class="colours-container" id="colours-container"></div>
+            </div>
+        </div>
+    </div>
+</div>
